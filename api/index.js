@@ -2,6 +2,8 @@ import express from "express";
 import mongoose, { mongo } from "mongoose";
 import dotenv from "dotenv";
 
+import userRoutes from "./routes/user.route.js";
+
 dotenv.config(); // untuk mengamankan link mongo
 
 mongoose
@@ -19,3 +21,5 @@ const port = 3000;
 app.listen(port, () => {
   console.log(`Server is running is port ${port}`);
 });
+
+app.use("/api/user", userRoutes);
