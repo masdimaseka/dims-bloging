@@ -27,19 +27,16 @@ export default function Header() {
           />
         </form>
 
-        <Button className=" lg:hidden bg-blue-500 hover:bg-blue-700">
+        <Button className=" lg:hidden " gradientDuoTone="purpleToBlue">
           <AiOutlineSearch size={16} />
         </Button>
 
         <div className="flex gap-2 md:order-2">
-          <Button className="hidden sm:inline">
+          <Button className="hidden sm:inline" color="gray">
             <FaMoon />
           </Button>
           <Link to="/sign-in">
-            <Button
-              className="bg-gradient-to-r from-blue-700 via-sky-400 to-indigo-600"
-              outline
-            >
+            <Button gradientDuoTone="purpleToBlue" outline>
               Sign In
             </Button>
           </Link>
