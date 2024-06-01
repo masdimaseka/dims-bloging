@@ -1,4 +1,4 @@
 # Dims Blogging Website Exercise
 
-Video Reference
-https://youtu.be/Kkht2mwSL_I?si=175dGZgTFJ7q3Ffy
+Project Documentation
+https://masdimaseka.notion.site/MERN-BLOG-DOC-33e7bc0d4d1842c6beb26fe66cb011f7
